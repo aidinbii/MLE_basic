@@ -33,6 +33,7 @@ MLE_basic
 │   └── __init__.py
 ├── utils.py                  # Utility functions and classes that are used in scripts
 ├── settings.json             # All configurable parameters and settings
+├── requirements.txt             
 └── README.md
 ```
 
