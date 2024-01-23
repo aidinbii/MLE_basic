@@ -1,14 +1,6 @@
 # ML_basic
 This project involves creating a data processing script that uploads data from the Iris flower dataset available on Wikipedia. The script then splits the data into training and inference sets and saves it locally. Subsequently, a classification model is trained using PyTorch or any other deep learning library. The entire training process is orchestrated within a Docker container. Finally, the trained model is copied to local storage, and batch inference is executed in a new Docker container.
 
-## Installing Docker Desktop
-
-Installing Docker Desktop is a straightforward process. Head over to the Docker official website's download page ([Docker Download Page](https://www.docker.com/products/docker-desktop)), and select the version for your operating system - Docker Desktop is available for both Windows and Mac. After downloading the installer, run it, and follow the on-screen instructions. 
-
-Once the installation is completed, you can open Docker Desktop to confirm it's running correctly. It will typically show up in your applications or programs list. After launching, Docker Desktop will be idle until you run Docker commands. This application effectively wraps the Docker command line and simplifies many operations for you, making it easier to manage containers, images, and networks directly from your desktop. 
-
-Keep in mind that Docker requires you to have virtualization enabled in your system's BIOS settings. If you encounter issues, please verify your virtualization settings, or refer to Docker's installation troubleshooting guide. Now you're prepared to work with Dockerized applications!
-
 ## Project structure:
 
 This project has a modular structure, where each folder has a specific duty.
@@ -96,6 +88,3 @@ python inference/run.py
 ```
 
 Replace `/path_to_your_local_model_directory`, `/path_to_your_input_folder`, and `/path_to_your_output_folder` with actual paths on your local machine or network where your models, input, and output are stored.
-
-## Wrap Up
-This project illustrates a simple, yet effective template to organize an ML project. Following good practices and principles, it ensures a smooth transition from model development to deployment.
